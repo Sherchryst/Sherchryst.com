@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  go_router: ^5.1.1
 
 dev_dependencies:
   flutter_test:
@@ -73,17 +74,22 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+        - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Black.ttf
+        - asset: assets/fonts/PlayfairDisplay-BlackItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-ExtraBold.ttf
+        - asset: assets/fonts/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Medium.ttf
+        - asset: assets/fonts/PlayfairDisplay-MediumItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-SemiBold.ttf
+        - asset: assets/fonts/PlayfairDisplay-SemiBoldItalic.ttf
+
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
