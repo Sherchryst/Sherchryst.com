@@ -47,74 +47,74 @@ class Styles {
 
 //*================== textStyles =================*/
   static const TextStyle ktsTitleText = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: kTitleTextSize,
     fontWeight: kfwTitleText,
     color: kcBlackColor,
   );
 
   static const TextStyle ktsMediumGreyBodyText = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     color: kcMediumGreyColor,
     fontSize: kBodyTextSize,
   );
 
   static const TextStyle ktsheading1Style = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 34,
     fontWeight: FontWeight.w400,
   );
 
   static const TextStyle ktsheading2Style = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 28,
     fontWeight: FontWeight.w600,
   );
 
   static const TextStyle ktsheading3Style = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 24,
     fontWeight: FontWeight.w600,
   );
 
   static const TextStyle ktsheadlineStyle = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 30,
     fontWeight: FontWeight.w700,
   );
 
   static const TextStyle ktsbodyStyle = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
 
   static const TextStyle ktssubheadingStyle = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 20,
     fontWeight: FontWeight.w400,
   );
 
   static const TextStyle ktscaptionStyle = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 13.5,
     fontWeight: FontWeight.w400,
   );
 
   static const TextStyle ktsbuttonStyle = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     fontSize: 16,
     fontWeight: FontWeight.w700,
   );
 
   static const TextStyle ktsWhiteBodyText = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
     color: kcWhiteColor,
     fontSize: kBodyTextSize,
   );
 
   static const TextStyle ktsBasicText = TextStyle(
-    fontFamily: "LeagueSpartan",
+    fontFamily: "PlayfairDisplay",
   );
 
 //*================== fontSizes =================*/

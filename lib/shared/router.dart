@@ -3,10 +3,23 @@ import 'package:go_router/go_router.dart';
 import 'package:sherchryst/shared/styles.dart';
 import 'package:sherchryst/views/home/home.dart';
 
+class RoutesName {
+  static const String home = 'home';
+  static const String about = 'about';
+  static const String contact = 'contact';
+}
+
+class RoutesPath {
+  static const String home = '/';
+  static const String about = '/about';
+  static const String contact = '/contact';
+}
+
 final GoRouter router = GoRouter(
   routes: <GoRoute>[
     GoRoute(
-      path: '/',
+      path: RoutesPath.home,
+      name: RoutesName.home,
       pageBuilder: (context, state) =>
           customTransition(state, child: const HomePage()),
     ),
