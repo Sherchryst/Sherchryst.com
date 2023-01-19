@@ -1,0 +1,14 @@
+{
+	"itdeveloper": "IT Developer",
+	"@itdeveloper": {
+	  "description": "This is the translation for the key 'itdeveloper' in the 'en' locale."
+	},
+	"projects": "Projects",
+	"contact": "Contact",
+	"hi": "Hi",
+	"aboutme": "About me",
+	"aboutdesc" : "I am an IT developer with a passion for web and mobile development and object-oriented programming. I love learning new technologies and I'm always looking for new challenges. Currently a student at the 42 school, I am looking for different missions to take advantage of my skills and gain professional experience.",
+	"@aboutdesc": {
+	  "description": "This is the translation for the key 'aboutdesc' in the 'en' locale."
+	}
+}

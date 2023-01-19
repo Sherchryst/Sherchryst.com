@@ -1,0 +1,14 @@
+{
+  "itdeveloper": "Développeur informatique",
+  "@itdeveloper": {
+    "description": "This is the translation for the key 'itdeveloper' in the 'fr' locale."
+  },
+  "projects": "Projets",
+  "contact": "Contact",
+  "hi": "Bonjour",
+  "aboutme": "À propos de moi",
+  "aboutdesc": "Je suis un développeur informatique passionné par le développement web et mobile, ainsi que par la programmation orientée objet. J'aime apprendre de nouvelles technologies et je suis toujours à la recherche de nouveaux défis. Actuellement étudiant à l'école 42, je suis à la recherche de différentes missions  afin de tirer profit de mes compétences et ainsi engranger de l'expérience professionnelle.",
+  "@aboutdesc": {
+    "description": "This is the translation for the key 'aboutdesc' in the 'fr' locale."
+  }
+}

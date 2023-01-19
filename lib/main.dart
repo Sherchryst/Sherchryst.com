@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sherchryst/shared/router.dart';
-import 'package:sherchryst/shared/styles.dart';
+import 'package:sherchryst/view/home/home.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +12,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      title: 'Sherchryst',
-      theme: buildTheme(),
-      routerDelegate: router.routerDelegate,
-      routeInformationParser: router.routeInformationParser,
-      routeInformationProvider: router.routeInformationProvider,
-    );
+    return MaterialApp(
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        supportedLocales: AppLocalizations.supportedLocales,
+        home: const HomeView());
   }
 }
